@@ -1,4 +1,4 @@
-describe('FizzBuzz',function() {
+describe('FizzBuzz',() => {
     let fizzBuzz;
     beforeEach(() => {
         fizzBuzz = new FizzBuzz();
@@ -32,6 +32,15 @@ describe('FizzBuzz',function() {
         it('fizzbuzz for 30', () => {
             expect(fizzBuzz.play(30)).toEqual('FizzBuzz');
           });
+    
+        
+      });
+
+      describe('when NOT divisible by 3,5,or 15', () => {
+        it('1 returns 1', () => {
+          expect(fizzBuzz.play(1)).toEqual(1);
+        });
+
     
         
       });
