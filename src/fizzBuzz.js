@@ -27,7 +27,7 @@ class FizzBuzz {
     }
 }
 
-// let fizzBuzz = new FizzBuzz();
+// run on console within browser let fizzBuzz = new FizzBuzz();
 
 // for (let i = 1; i <= 100; i++) {
 //   console.log(fizzBuzz.play(i));
